@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -18,9 +17,9 @@ export class AppComponent {
   //-- Variáveis do retorno
   endereco: any;
   retorno = {
-    rua: ' ',
-    cidade: ' ',
-    estado: ' '
+    rua: '',
+    cidade: '',
+    estado: ''
   }
 
   //logradouro=rua, localidade=cidade, uf=estado
